@@ -108,6 +108,17 @@ kable(automation_levels,
 
 ## Links
 
-Email: [jack.hannah1@nhs.net](mailto:jack.hannah1@nhs.net)<br> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; [david.caldwell1@nhs.net](mailto:david.caldwell1@nhs.net)<br> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; [nss.isdtransformingpublishing@nhs.net](mailto:nss.isdtransformingpublishing@nhs.net)
+### Jack Hannah
 
-[Transforming Publishing on GitHub](https://github.com/NHS-NSS-transforming-publications)
+[Email](mailto:jack.hannah1@nhs.net)
+[GitHub](https://github.com/jackhannah95)
+
+### David Caldwell
+
+[Email](mailto:david.caldwell1@nhs.net)
+[GitHub](https://github.com/davidc92)
+
+### Transforming Publishing
+
+[Email](mailto:nss.isdtransformingpublishing@nhs.net)
+[GitHub](https://github.com/NHS-NSS-transforming-publications)

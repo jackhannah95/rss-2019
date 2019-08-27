@@ -1,16 +1,18 @@
 ---
-title: "Reproducible Analytical Pipelines for Health and Social Care Publications"
+title: "Reproducible Analytical <br> Pipelines for Health and <br> Social Care Publications"
 subtitle: "RSS Annual Conference 2019"
 author: 'Jack Hannah & David Caldwell <br> NHS National Services Scotland <br>'
 date: "3 September 2019 <br><br> Slides: https://github.com/jackhannah95/rss-2019"
 output:
   ioslides_presentation:
+    widescreen: true
     css: my-theme.css
 ---
 
 ```{r setup, include = FALSE}
 # Load packages required
 library(knitr)
+library(magrittr)
 library(kableExtra)
 
 knitr::opts_chunk$set(echo = FALSE)
@@ -53,7 +55,7 @@ include_graphics(here::here("images", "traditional_process.png"))
 
 ## The solution
 
-```{r out.width = "60%", , fig.align = 'center'}
+```{r out.width = "60%", fig.align = 'center'}
 include_graphics(here::here("images", "rap_matts.png"))
 ```
 
@@ -78,22 +80,63 @@ include_graphics(here::here("images", "rap.jpg"))
 
 ## What is a RAP project?
 
-```{r out.width = "100%", fig.align = 'center'}
+```{r out.width = "90%", fig.align = 'center'}
 include_graphics(here::here("images", "new_process.png"))
 ```
 
 
 ## Case study: HSMR
 
+- The [Hospital Standardised Mortality Ratios publication](https://www.isdscotland.org/Health-Topics/Quality-Indicators/HSMR/) is released quarterly and includes:
+    - 40 page publication document
+    - 2 page summary document
+    - 7 Excel tables
+    
+- The aim of the case study was to RAP the entire publication process start to finish, teaching ourselves the principles of RAP so these skills can be spread to other teams
 
 
+## HSMR
 
-## [Levels of RAP/automation](https://www.isdscotland.org/About-ISD/Methodologies/_docs/Reproducible_Analytical_Pipelines_paper_v1.4.pdf)
+```{r out.width = "90%", fig.align = 'center'}
+include_graphics(here::here("images", "hsmr_repo.png"))
+```
 
-```{r, echo = FALSE}
+
+## HSMR
+
+The finished HSMR product is a bespoke [R package](https://github.com/NHS-NSS-transforming-publications/hsmr) which contains:
+
+- 17 bespoke functions to carry out all tasks which are repeated each quarterly cyce
+- Error handling, unit testing and documentation of functions to ensure quality assurance of data, accuracy of function output and sustainability
+- Complete automation of entire process start to finish
+
+
+## HSMR Benefits
+
+A number of benefits have been realised with the RAP process for HSMR:
+
+- Processing time is down from 7 days to 50 minutes
+- There is a higher quality of code
+- Better workflow practices employed by the team
+- Increased enthusiasm and excitement from the team
+
+
+## HSMR Outlook
+
+- Due to the time freed up by the more efficient process, the HSMR team have more time to pursue more interesting pieces of work
+- Work has already begun on implementing some supplementary output into the RAP process
+- There is more time for exploratory analysis into potential improvements to the HSMR process
+
+
+## [Levels of RAP/automation](https://www.isdscotland.org/About-ISD/Methodologies/_docs/Reproducible_Analytical_Pipelines_paper_v1.4.pdf) {.smaller}
+
+<br>
+```{r, echo = FALSE, warning = FALSE}
+
 kable(automation_levels,
       col.names = c("Level", "Description"),
-      format = "markdown")
+      format = "markdown") %>%
+  kable_styling(position = "center")
 ```
 
 
@@ -106,7 +149,7 @@ kable(automation_levels,
 - As a minimum, we recommend teams aim for level 4 (a or b or both) as laid out in our [RAP paper](https://www.isdscotland.org/About-ISD/Methodologies/_docs/Reproducible_Analytical_Pipelines_paper_v1.4.pdf)
 
 
-## Links
+## Contact
 
 ### Jack Hannah
 

@@ -1,2 +1,1 @@
-# RSS 2019
-Slides for [talk on Reproducible Analytical Pipelines for Health and Social Care Publications](https://events.rss.org.uk/rss/frontend/reg/absViewDocumentFE.csp?documentID=1433&eventID=270) at the [Royal Statistical Society (RSS) 2019 Annual Conference](http://www.rss.org.uk/RSS/Events/RSS_Conference/2019_Conference/RSS/Events/Conference/2019_conference.aspx?hkey=2a432b6b-6baf-4bc3-baa4-063221c13ab8) on 03/09/2019, presented jointly with [David Caldwell](https://github.com/davidc92). Slides can be viewed on [RPubs](http://rpubs.com/jackhannah95/rss-2019).
+The most up to date version of the materials for this presentation can now be found in my [presentations repository](https://github.com/jackhannah95/presentations/tree/main/2019-09-03_rap-health-social-care).
